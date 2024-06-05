@@ -1,11 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/fonts.css">
+    <link rel="stylesheet" href="/public/css/global.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>MOI</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-header">
+            <div class="brand-nav">
+                <a href="#">
+                    <img src="/public/assets/images/MOI Emblema.png" alt="Logo da Empresa">
+                </a>
+                <h2>MOI</h2>
+            </div>
+            <div class="div-nav">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="section-header">
+            <h1>Monitoramento Oceânico Inteligente</h1>
+            <p>Navegando o futuro com precisão</p>
+            <a href="#">Saiba mais</a>
+        </div>
+    </header>
+    <section class="section-products">
+        <div class="container-text-box">
+            <div class="text-box">
+                <h1>Monitoramento Oceânico Inteligente</h1>
+                <p>Navegando o futuro com precisão</p>
+            </div>
+            <img src="#" alt="Sensor imagem">
+        </div>
+        <div class="container-products">
+            <div class="products">
+                <a href="#">
+                    <img src="/public/assets/images/Sensor 1.png" alt="Sensor">
+                </a>
+                <div class="text-products">
+                    <h3>Sensor Ultrassônico Marinho V2</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="products">
+                <a href="">
+                    <img src="/public/assets/images/Sensor 2.png" alt="Sensor">
+                </a>
+                <div class="text-products">
+                    <h3>Sensor Marinho V5</h3>
+                    <p>Para seu áquario o melhor sensor...</p>
+                </div>
+            </div>
+            <div class="products">
+                <a href="#">
+                    <img src="/public/assets/images/Sensor 3.png" alt="Sensor">
+                </a>
+                <div class="text-products">
+                    <h3>Sensor Ultrassônico Marinho Pro V2</h3>
+                    <p>Para sua empresa o melhor sensor do mercado...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-public">
+        <div class="container-text-box">
+            <div class="text-box">
+                <h1>Nosso publico</h1>
+                <p>Empresas que usam nosso serviço</p>
+            </div>
+            <div class="empresas">
+                <div class="empresas-icons">
+                    <div class="icon-empresa">
+                        <img src="/public/assets/images/Petrobras.png" alt="Petrobras">
+                        <h5>Petrobras</h5>
+                        <p>Empresa petrolífera</p>
+                    </div>
+                    <div class="icon-empresa">
+                        <img src="/public/assets/images/Shell-Logo.png" alt="Shell">
+                        <h5>Shell</h5>
+                        <p>Empresa petrolífera</p>
+                    </div>
+                </div>
+                <div class="empresas-icons">
+                    <div class="icon-empresa">
+                        <img src="/public/assets/images/porto-de-santos-logo-D051A9F97D-seeklogo.com.png" alt="Porto de Santos">
+                        <h5>Porto de Santos</h5>
+                        <p>Setor Portuário </p>
+                    </div>
+                    <div class="icon-empresa">
+                        <img src="/public/assets/images/exxon-mobil.png" alt="Exxon Mobil">
+                        <h5>Exxon Mobil</h5>
+                        <p>Empresa petrolífera</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="section-benefits">
+        <h1>Benefícios da nossa empresa</h1>
+        <div class="benefits-container">
+            <div class="benefits-block">
+                <img src="/public/assets/images/badge_1534216.png" alt="Qualidade">
+                <div class="text-benefits">
+                    <h5>Qualidade do Produto</h5>
+                    <p>Produtos de alta qualidade a preços acessíveis</p>
+                </div>
+            </div>
+            <div class="benefits-block">
+                <img src="/public/assets/images/speaker_1534177.png" alt="Qualidade">
+                <div class="text-benefits">
+                    <h5>Satisfação do cliente</h5>
+                    <p>Garantir a felicidade do cliente é nossa prioridade</p>
+                </div>
+            </div>
+            <div class="benefits-block">
+                <img src="/public/assets/images/innovation_9605318.png" alt="Qualidade">
+                <div class="text-benefits">
+                    <h5>Inovação</h5>
+                    <p>Sempre em busca de novas e melhores soluções</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-contact">
+        <div class="text-box-contact">
+            <h1>Entre em contato</h1>
+            <p>Tem alguma pergunta ou feedback? Entre em contato conosco!</p>
+        </div>
+        <div class="contact-form">
+            <div class="contact-input">
+                <div class="input-contact">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu Nome">
+                </div>
+                <div class="input-contact">
+                    <label for="email">Nome</label>
+                    <input type="text" id="email" name="email" placeholder="Seu Email">
+                </div>
+            </div>
+            <button onclick="EnviarFormulario()" id="buttonInput" class="button-contact">Enviar</button>
+        </div>
+    </section>
+    <section class="section-feedback">
+        <div class="text-box-contact">
+            <h1>Entre em contato</h1>
+            <p>Tem alguma pergunta ou feedback? Entre em contato conosco!</p>
+        </div>
+        <div class="feedback-container">
+            <div class="feedback-block">
+                <div class="feedback-user">
+                    <img src="/public/assets/images/Rodrigo.jpg" alt="user">
+                    <div class="feedback-user-name-location">
+                        <h3>Roberto S. Costa</h3>
+                        <p>2h • Alagoinhas</p>
+                    </div>
+                </div>
+                <img src="/public/assets/images/Sensor Feedback.png" alt="post">
+                <div class="feedback-user-text">
+                    <h2>Produto excelente, recomendadíssimo.</h2>
+                    <p>Satisfeito</p>
+                </div>
+            </div>
+            <div class="feedback-block">
+                <div class="feedback-user">
+                    <img src="/public/assets/images/Clark Kent.jpg" alt="user">
+                    <div class="feedback-user-name-location">
+                        <h3>Claudio Quente</h3>
+                        <p>1d • Londrina</p>
+                    </div>
+                </div>
+                <img src="/public/assets/images/Sensor  2 Feedback.jpg" alt="post">
+                <div class="feedback-user-text">
+                    <h2>Serviço bom e equipe de suporte comprometida!</h2>
+                    <p>Feliz</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Monitoramento Oceânico Inteligente.
+            Todos os direitos reservados.</p>
+        <p>Política de Privacidade</p>
+        <p>Termos de Serviços</p>
+    </footer>
 </body>
 </html>
