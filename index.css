@@ -129,6 +129,7 @@ Produtos
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 60px;
 
 }
 
@@ -167,6 +168,12 @@ Produtos
 
 .text-products {
     padding: 12px;
+}
+
+.container-text-box-products img {
+    width: auto;
+    height: 180px;
+    border-radius: 9px;
 }
 
 .products img {
