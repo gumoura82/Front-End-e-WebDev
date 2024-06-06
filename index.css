@@ -1,0 +1,205 @@
+body {
+    font-family: "Roboto-Regular", sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 60px 170px;
+    border-bottom: 1px solid #f5f2f2;
+}
+
+/*
+Header
+*/
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 39px;
+}
+
+.brand-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.brand-nav img {
+    width: auto;
+    height: 53px;
+    border-radius: 100%;
+}
+
+.brand-nav h2 {
+    font-size: 28px; 
+    color: black;
+    font-weight: bold; 
+}
+
+.div-nav {
+    display: flex;
+    align-items: center;
+}
+
+.div-nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-nav ul li {
+    margin-right: 30px; 
+}
+
+.li-nav-final {
+    margin-right: 0px;
+}
+
+.div-nav ul li a {
+    text-decoration: none; 
+    color: black;
+    padding: 10px 15px ; 
+}
+
+.div-nav ul li a:hover {
+    opacity: 80%;
+    color: #012c5e;
+}
+
+.div-nav ul li a:active {
+    opacity: 50%;
+    color: #012c5e;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001124;
+    height: 382px;
+}
+
+.section-header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 24px;
+
+}
+
+.section-header p {
+    color: white;
+    margin-bottom: 24px;
+}
+
+.section-header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid black; 
+    border-radius: 9px;
+    font-size: large;
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 48px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.section-header a:hover {
+    border: 1px solid white;
+    background-color: #001124;
+    color: white;
+
+}
+
+.section-header a:active {
+    opacity: 50%;
+}
+
+/*
+Produtos
+*/
+
+.section-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container-text-box-products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.text-box h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.container-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products {
+    border: 1px solid #cbcbcb;
+    border-radius: 9px;
+}
+
+.products h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+
+}
+
+.text-products {
+    padding: 12px;
+}
+
+.products img {
+    border-radius: 9px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 350px;
+    height: 336px;
+
+}
+
+/*
+Publico
+*/
+
+.section-public {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box-public {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-box-public h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.icon-empresa img {
+    width: auto;
+    height: 25px;
+}
