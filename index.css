@@ -288,6 +288,35 @@ Beneficios
 }
 
 /*
+Video
+*/
+
+.section-video {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001124;
+}
+
+.text-content-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-content-video h1 {
+    width: 437px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 28px;
+}
+
+.text-content-video p {
+    color: white;
+
+}
+
+/*
 Entre em contato
 */
 
