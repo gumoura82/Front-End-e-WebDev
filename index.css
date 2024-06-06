@@ -199,7 +199,272 @@ Publico
     margin-bottom: 24px;
 }
 
+.empresas {
+    display: flex;
+    flex-direction: column;
+}
+
+.empresas-icons {
+    display: flex;
+    justify-content: space-around
+}
+
+.icon-empresa {
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-empresa h5 {
+    padding: 20px 0px 7px 0px;
+    font-size: 20px;
+
+}
+
+.icon-empresa p {
+    color: #808080;
+}
+
+.exxon-mobil-img {
+    border-radius: 20%;
+}
+
 .icon-empresa img {
+    padding: 12px;
+    background-color: #F2F2F2;
+    border-radius: 16px;
     width: auto;
-    height: 25px;
+    height: 70px;
+}
+
+/*
+Beneficios
+*/
+
+.section-benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-h1 {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 369px;
+}
+
+.benefits-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.benefits-block {
+    display: flex;
+    border: 1px solid #cbcbcb;
+    border-radius: 9px;
+    padding: 16px;
+}
+
+.text-benefits {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 13px;
+}
+
+.text-benefits h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.benefits-block img {
+    width: 100px;
+    height: 100px;
+}
+
+/*
+Entre em contato
+*/
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.text-box-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.text-box-contact h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 9px;
+    font-size: large;
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 48px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.contact-form button:active {
+    opacity: 50%;
+}
+
+.contact-input {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.input-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input-contact label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.input-contact input {
+    padding: 10px;
+    border: 1px solid #E6E6E6;
+    border-radius: 9px;
+    width: 350px;
+    
+}
+
+/*
+Comentarios
+*/
+
+.section-feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.feedback-block {
+    border: 1px solid #cbcbcb;
+    border-radius: 9px;                                       
+}
+
+.feedback-user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+
+}
+
+.feedback-user-text {
+    padding: 12px;
+}
+
+.feedback-user-name-location h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.feedback-user-name-location p {
+    font-size: 14px;
+    color: #808080;
+
+}
+
+.feedback-user-text h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.feedback-user-text p {
+    display: inline-block;
+    border: 1px solid #cbcbcb;
+    background-color: #ECECEC;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 3px;
+
+}
+
+.feedback-user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.post-imagem {
+    width: auto;
+    height: 459px;
+}
+
+/*
+Footer
+*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer h1 {
+    font-size: 20px;
+    text-align: center;
+    width: 380px;
+}
+
+footer h2 {
+    font-size: 20px;
+    width: 166px;
+    text-align: center;
 }
